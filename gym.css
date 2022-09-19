@@ -1,0 +1,123 @@
+/*CSS Reset*/
+body{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('newBG.jpg');
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    height: 80vh;
+    /* width:100%;
+    height:100%; */
+    color:white;
+    
+}
+
+.left img{
+    display:block;
+  width:23%;
+  margin:15px auto;
+    width: 92px;
+
+    margin-top: 15px;
+    filter: invert(100%); /*black to white image and vice-versa*/
+}
+
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size:26px;
+    color:khaki;
+   
+
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+
+.mid{
+    display:block;
+    width:50%;
+    margin:20px auto;
+    /* border: 2px solid white; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid coral; */
+}
+
+.navbar{
+  display: inline-block;
+}
+
+.navbar li{
+
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    
+   text-decoration:underline;
+   color:khaki;
+}
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius:6px;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(65, 63, 63);
+}
+.container{
+    border: 5px solid rgb(171, 141, 87);
+    margin: 106px 80px ;
+    padding: 75px;
+    width:36%;
+    border-radius:28px;
+    font-size:15px;
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+  text-align:center;
+  display: block;
+  width:500px;
+  padding:1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  border-radius:16px;
+  font-size:15px;
+}
+
+.container h1{
+    color:white;
+    text-align:center;
+}
+
+.container button{
+  display:block;
+  width:23%;
+  margin:15px auto;
+}
